@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         //here we update the UI
         if(running){
             steps=findViewById(R.id.txt_count);
-//            steps.setText(""+event.values[0]);
-            steps.setText("hi");
+            steps.setText(""+event.values[0]);
+//            steps.setText("hi");
 //            Toast.makeText(this, "Sensor found", Toast.LENGTH_SHORT).show();
         }
     }
